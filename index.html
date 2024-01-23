@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Q.1. Write a JavaScript program to remove items from a drop-down list.
+        <br> Sample HTML file :
+    </h4>
+    <select id="colorSelect">
+        <option>Red</option>
+        <option>Green</option>
+        <option>White</option>
+        <option>Black</option>
+        </select>
+        <button id="remove">Remove</button>
+
+    <h4>Q.2. Write a JavaScript program to change the  color given text in p tag
+            <br> Eg : if you select green then the color of text should be green
+            <br> Sample HTML file :
+    </h4>
+    <select id="colorSelectChange">
+        <option>Red</option>
+        <option>Green</option>
+        <option>White</option>
+        <option>Black</option>
+        </select>
+        <button onclick="changeColor()">Change Color</button>
+        <p id="textColor">”Hello, How are you?” </p>
+        
+    <h4>Q.3. Write a JavaScript function to get the values of First and Last names of the following form.
+           <br> Sample HTML file :
+    </h4>
+    <form id="form1">
+    First name: <input type="text" name="fname" value="David"><br>
+    Last name: <input type="text" name="lname" value="Beckham"><br>
+    <input type="submit" value="Submit">
+    </form>
+
+    <h4>Q.4. Write a JavaScript program to calculate sphere volume.</h4>
+    <h5>Input radius value and get the volume of a sphere.</h5>
+    <label for="radius">Radius</label><br>
+    <input type="number" id="radius"><br>
+    <label for="volume">Volume</label><br>
+    <input type="number" id="volume">
+    <button onclick="findSphereVolume()">Find</button>
+
+    <h4>Q.5. Write a JavaScript program to display a random image (clicking on a button) from the following list.
+    </h4>
+    <input type="button" id="showImage" value="Show Image"/>
+
+    <h4>Q.6. Write a JavaScript program to open a new browser window with a specific URL.
+    </h4>
+    <button onclick="redirectSite()">Click here to enjoy shopping</button>
+
+    <h4>Q.7. Write a program that redirects the user to a different URL when a button is clicked.
+    </h4>
+    <button onclick="diffURL()">Click here</button>
+
+    <h4>Q.8. Develop a script to extract and display the current URL's protocol, hostname, and query Parameters.      
+    </h4>
+    <p id="details"></p>
+        <button onclick="displayDetails()">Click here to display the details of URL</button>
+
+    <h4>Q.9. Implement a function that reloads the current page.    
+    </h4>
+    <button onclick="reloadPage()">Reload</button>
+
+    <h4>Q.10. Develop a script that displays the screen width and height.    
+    </h4>
+    <input type="button" onclick="getWidthHeight()" value="click here to get the width and height"></inpu>
+      <div id="width"></div>
+      <div id="height"></div>
+
+    <h4>Q.11. Implement a countdown timer that alerts the user when it reaches zero.  
+    </h4>
+    <p id="timer">10</p>
+    <button onclick="countdown()">Start Countdown</button>
+
+    
+    
+
+        <script src="script.js"></script>   
+</body>
+</html>
